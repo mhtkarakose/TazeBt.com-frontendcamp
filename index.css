@@ -1,0 +1,84 @@
+.hovercard { 
+    /* The image used */
+    background-image: url("img/background.png");
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Border {
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;
+    background-color: var(--white);
+    border: solid 1px #1c1c1c;
+  }
+
+.Border-Stroke {
+    width: 300px;
+    height: 110px;
+    object-fit: contain;
+    box-shadow: inset 0px 1px 1px 0 rgba(255, 255, 255, 0.15);
+    background-image: linear-gradient(#f4f4f4, #f4f4f4), linear-gradient(to top, #000000, #000000);
+    border: solid 1px #010202;
+    border-radius: 2%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+  }
+
+  .City {
+    width: 300px;
+    height: 110px;
+    object-fit: contain;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 2%;
+  }
+
+.card {
+    padding-top: 174px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 174px;
+    text-align: center;
+    font-family: arial;
+  }
+.cardHeaderImg{
+  position: relative; left: 0; top: 0;
+}
+
+  /* START AVATAR */
+  .BorderPP {
+    background-color: var(--white);
+    position: absolute;
+    top: 240px;
+    bottom: -50px;
+    left: 220px;
+  }
+  .image {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+  }
+  /* END AVATAR */
+
+  /* START CONTENT*/
+  .BorderProfilContent {
+    width: 300px;
+    height: 242px;
+    background-color: #ffffff;
+    border: solid 1px #1c1c1c;
+    top: -100px;
+  }
+
+  /* END CONTENT*/
+
