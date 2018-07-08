@@ -9,6 +9,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.boderCard{
+
+  border-radius: 10%;
+  display: inline-block;
+}
+
 .Border-Stroke {
     width: 300px;
     height: 110px;
@@ -125,7 +132,7 @@
     text-align: left;
     color: #555555;
     margin-left: 21px;
-    margin-top: 1px;
+    margin-top:8px; 
   }
   .Followers {
     width: 61px;
@@ -139,7 +146,8 @@
     letter-spacing: normal;
     text-align: left;
     color: #555555;
-    padding-left: 21px;
+    margin-left: 21px;
+    margin-top:8px; 
   }
   .About-base {
     width: 185px;
@@ -152,7 +160,7 @@
   .About-base1 {
     width: 115px;
     height: 242px;
-    background-color: #f4f4f4;
+    background-color: #fff;
 
     float:left;
 
@@ -182,7 +190,6 @@
 .Border {
   width: 300px;
   height: 242px;
-  border: solid 1px #1c1c1c;
 }
 
 .Switzerland {
@@ -210,11 +217,9 @@
   width: 16px;
   height: 12px;
   object-fit: contain;
-  background-image: linear-gradient(to top, #acacac, #4d4d4d);
-  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-
+  
   float:left;
+  position: relative;
 
   margin-left: 15px;
   margin-top: 23px 
@@ -242,18 +247,25 @@
   margin-top: 23px 
 }
 
+.divWeb{
+  width: 156px;
+  height: 15px;
+  position: absolute;
+  float: left;
+  vertical-align: center;
+}
+
 .Web-icon {
   width: 14px;
   height: 14px;
   object-fit: contain;
-  background-image: linear-gradient(to top, #acacac, #4d4d4d);
-  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-
-  float: right;
+  
+  float: left;
 
   margin-left: 15px;
-  margin-top: 23px 
+  margin-top: 43px;
+  
+
 }
 
 .wwwgooglecom {
@@ -272,7 +284,6 @@
   text-shadow: 0px 1px 0 #ffffff;
   text-shadow: 0px 1px 0 var(--white);
 
-  float:left;
 
   margin-left: 15px;
   margin-top: 13px ;
@@ -295,7 +306,7 @@
   text-shadow: 0px 1px 0 var(--white);
   float:left;
 
-  margin-left: 15px;
+  margin-left: 6px;
   margin-top: 13px ;
 }
 
@@ -316,8 +327,8 @@
   text-shadow: 0px 1px 0 var(--white);
   float:left;
 
-  margin-left: 15px;
-  margin-top: 13px ;
+  margin-left: 6px;
+  margin-top: 20px ;
 }
 
 .eldindesign {
@@ -337,8 +348,8 @@
   text-shadow: 0px 1px 0 var(--white);
   float:left;
 
-  margin-left: 15px;
-  margin-top: 13px ;
+  margin-left: 5px;
+  margin-top: 25px ;
 }
 
 .dribbble {
@@ -358,56 +369,45 @@
   text-shadow: 0px 1px 0 var(--white);
   float:left;
 
-  margin-left: 15px;
-  margin-top: 13px ;
-}
-
-.Resume-icon {
-  width: 13px;
-  height: 14px;
-  object-fit: contain;
-  background-image: linear-gradient(to top, #acacac, #4d4d4d);
-  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  float:left;
-
-  margin-left: 15px;
-  margin-top: 13px ;
-}
-.Message-icon {
-  width: 16px;
-  height: 11px;
-  background-image: linear-gradient(to top, #acacac, #4d4d4d);
-  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  float:left;
-
-  margin-left: 15px;
-  margin-top: 13px ;
-}
-
-.Twitter-icon {
-  width: 16px;
-  height: 9px;
-  object-fit: contain;
-  background-image: linear-gradient(to top, #acacac, #4d4d4d);
-  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  float:left;
-
-  margin-left: 15px;
-  margin-top: 13px ;
+  margin-left: 6px;
+  margin-top: 29px ;
 }
 
 .Dribbble-icon {
   width: 16px;
   height: 16px;
   object-fit: contain;
-  background-image: linear-gradient(to top, #acacac, #4d4d4d);
-  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
-  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+ float:left;
+
+  margin-left: 15px;
+  margin-top: 27px ;
+}
+
+.Resume-icon {
+  width: 13px;
+  height: 14px;
+  object-fit: contain;
   float:left;
 
   margin-left: 15px;
   margin-top: 13px ;
 }
+.Message-icon {
+  width: 13px;
+  height: 14px;
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 20px ;
+}
+
+.Twitter-icon {
+  width: 16px;
+  height: 9px;
+  object-fit: contain;
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 27px ;
+}
+
