@@ -9,15 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.Border {
-    width: 300px;
-    height: 100px;
-    background-color: #ffffff;
-    background-color: var(--white);
-    border: solid 1px #1c1c1c;
-  }
-
 .Border-Stroke {
     width: 300px;
     height: 110px;
@@ -51,7 +42,14 @@
     font-family: arial;
   }
 .cardHeaderImg{
-  position: relative; left: 0; top: 0;
+
+  width: 300px;
+  height: 110px;
+  object-fit: contain;
+  box-shadow: inset 0px 1px 1px 0 rgba(255, 255, 255, 0.15);
+  background-image: url("img/city.png");
+  border: solid 1px #010202;
+
 }
 
   /* START AVATAR */
@@ -76,9 +74,340 @@
     width: 300px;
     height: 242px;
     background-color: #ffffff;
+    background-color: var(--white);
     border: solid 1px #1c1c1c;
-    top: -100px;
-  }
+    background-color: #fff !important;
 
+  }
   /* END CONTENT*/
 
+  .layer1084 {
+    width: 54px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    margin-left: 22px;
+    margin-top: 65px;
+  }
+
+  .layer118 {
+    width: 39px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    margin-left: 22px;
+    margin-top: 20px;
+  }
+  .Following {
+    width: 62px;
+    height: 14px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    margin-left: 21px;
+    margin-top: 1px;
+  }
+  .Followers {
+    width: 61px;
+    height: 11px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    padding-left: 21px;
+  }
+  .About-base {
+    width: 185px;
+    height: 242px;
+    background-color: #f4f4f4;
+
+    float:left;
+
+  }
+  .About-base1 {
+    width: 115px;
+    height: 242px;
+    background-color: #f4f4f4;
+
+    float:left;
+
+  }
+
+  .Eldin-Heri {
+    width: 92px;
+    height: 15px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    text-shadow: 0px 1px 0 #ffffff;
+    text-shadow: 0px 1px 0 var(--white);
+
+    margin-left: 16px;
+    margin-right: 277px;
+    margin-top: 15px 
+  }
+
+
+.Border {
+  width: 300px;
+  height: 242px;
+  border: solid 1px #1c1c1c;
+}
+
+.Switzerland {
+  width: 64px;
+  height: 9px;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+
+  margin-left: 16px;
+  margin-right: 277px;
+  margin-top: 10px 
+}
+
+.Skill-icon {
+  width: 16px;
+  height: 12px;
+  object-fit: contain;
+  background-image: linear-gradient(to top, #acacac, #4d4d4d);
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 23px 
+}
+
+.Bosnia-and-Herzegovina {
+  width: 83px;
+  height: 15px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+
+  float:left;
+
+  margin-left: 6px;
+  margin-top: 23px 
+}
+
+.Web-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  background-image: linear-gradient(to top, #acacac, #4d4d4d);
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+
+  float: right;
+
+  margin-left: 15px;
+  margin-top: 23px 
+}
+
+.wwwgooglecom {
+  width: 112px;
+  height: 15px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.Download-Resume {
+  width: 123px;
+  height: 12px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.Send-a-message {
+  width: 108px;
+  height: 15px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.eldindesign {
+  width: 91px;
+  height: 15px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.dribbble {
+  width: 57px;
+  height: 12px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  color: var(--warm-grey);
+  text-shadow: 0px 1px 0 #ffffff;
+  text-shadow: 0px 1px 0 var(--white);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.Resume-icon {
+  width: 13px;
+  height: 14px;
+  object-fit: contain;
+  background-image: linear-gradient(to top, #acacac, #4d4d4d);
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+.Message-icon {
+  width: 16px;
+  height: 11px;
+  background-image: linear-gradient(to top, #acacac, #4d4d4d);
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.Twitter-icon {
+  width: 16px;
+  height: 9px;
+  object-fit: contain;
+  background-image: linear-gradient(to top, #acacac, #4d4d4d);
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
+
+.Dribbble-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  background-image: linear-gradient(to top, #acacac, #4d4d4d);
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  box-shadow: 0px 1px 0 0 var(--white), inset 0px 1px 0 0 rgba(1, 2, 2, 0.5);
+  float:left;
+
+  margin-left: 15px;
+  margin-top: 13px ;
+}
